@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Tarihce"
+        android:layout_width="399dp"
+        android:layout_height="58dp"
+        android:text="Tarihçe"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/YerBilgisi"
+        android:layout_width="400dp"
+        android:layout_height="56dp"
+        android:text="Yer Bilgisi"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/UlkeBilgisi"
+        android:layout_width="399dp"
+        android:layout_height="50dp"
+        android:text="Ülke Bilgisi"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/Hakkında"
+        android:layout_width="414dp"
+        android:layout_height="40dp"
+        android:text="Hakkında"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="189dp"
+        android:foreground="@android:drawable/stat_notify_sync_noanim"
+        android:src="@tools:sample/avatars"
+        app:srcCompat="@android:drawable/stat_notify_sync_noanim"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:srcCompat="@color/black" />
+
+    <TextView
+        android:id="@+id/sehirbilgisi"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:text="Şehir Bilgisi"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
